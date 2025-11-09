@@ -79,7 +79,7 @@ https://www.kaggle.com/datasets/ignazio/kumars-eeg-imagined-speech?utm_source=ch
 
 ```bash
 # Clone this repository
-git clone https://github.com/<your-username>/EEG-Imagined-Speech.git
+git clone https://github.com/jerry10-ui/ML-Imagined-Speech.git
 cd EEG-Imagined-Speech
 
 # Create and activate virtual environment
