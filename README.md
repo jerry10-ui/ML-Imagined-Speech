@@ -263,17 +263,6 @@ __pycache__/
 
 ---
 
-🚀 10. Quick Reference
-
-| Task         | Command                 |
-| ------------ | ----------------------- |
-| Clean data   | `python clean.py`       |
-| Train model  | `python train_model.py` |
-| Plot results | `python plot_curves.py` |
-| Run app      | `streamlit run app.py`  |
-
----
-
 🧩 Author
 
 Developed by Abhay Garg
