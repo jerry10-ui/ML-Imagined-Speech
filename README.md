@@ -94,7 +94,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📦 2. Requirements
+📦 2. Requirements
 
 ```
 numpy
