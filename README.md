@@ -233,6 +233,7 @@ Features:
 
 If audio doesn’t play automatically, switch between **`gTTS`** and **`pyttsx3`** in the code.
 
+---
 
 🧹 8. .gitignore Summary
 
@@ -248,6 +249,7 @@ __pycache__/
 .streamlit/
 ```
 
+---
 
 🧾 9. Presentation Summary
 
@@ -259,6 +261,7 @@ __pycache__/
 6. Demo: Streamlit web app for live EEG prediction.
 7. Conclusion: Demonstrates potential in assistive speech technology.
 
+---
 
 🚀 10. Quick Reference
 
@@ -271,12 +274,12 @@ __pycache__/
 
 ---
 
-
 🧩 Author
 
 Developed by Abhay Garg
 B.Tech CSE – AI/ML Specialization
 
+---
 
 ## 📜 License
 
