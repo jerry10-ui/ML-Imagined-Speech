@@ -229,4 +229,4 @@ B.Tech CSE – AI/ML Specialization
 
 ## 📜 License
 
-MIT License — Feel free to use, modify, and distribute with credit.
+Apache License 2.0
