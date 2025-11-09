@@ -86,6 +86,7 @@ test_loss, test_acc = model.evaluate(X_test, y_test, verbose=1)
 print(f"✅ Test Accuracy: {test_acc:.4f}")
 
 # -------------------- SAVE MODEL & HISTORY --------------------
-np.save(r"C:\Coding\ML Project\history.npy", history.history)
+np.save(r"C:\Coding\ML Imagined Speech\history.npy", history.history)
 model.save(os.path.join(BASE_DIR, "eeg_model.h5"))
 print("💾 Model saved as eeg_model.h5")
+
