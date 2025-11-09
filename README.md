@@ -170,7 +170,7 @@ Displays shape, NaN count, and verifies preprocessing success.
 
 ---
 
-## 🧮 5. Model Training
+🧮 5. Model Training
 
 ```bash
 python train_model.py
@@ -203,7 +203,7 @@ X_val, X_test, y_val, y_test = train_test_split(X_temp, y_temp, test_size=0.5, s
 
 ---
 
-## 📊 6. Model Evaluation
+📊 6. Model Evaluation
 
 ```bash
 python plot_curves.py
@@ -217,7 +217,7 @@ Outputs:
 
 ---
 
-## 🎙️ 7. Interactive Inference
+🎙️ 7. Interactive Inference
 
 ### Streamlit App
 
@@ -270,6 +270,6 @@ B.Tech CSE – AI/ML Specialization
 
 ---
 
-## 📜 License
+📜 License
 
 Apache License 2.0
