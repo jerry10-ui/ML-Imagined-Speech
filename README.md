@@ -27,6 +27,53 @@ This project takes raw EEG '.edf' data, preprocesses it into segments, trains a 
 | `requirements.txt` | Python dependencies list. |
 | `README.md` | Complete documentation. |
 
+You used the **“Imagined Speech EEG” dataset**, which contains EEG recordings of subjects imagining different spoken words.
+
+Here’s a detailed description you can include in your report or GitHub README:
+
+---
+
+### 🧠 Dataset Used — *Imagined Speech EEG Dataset*
+https://www.kaggle.com/datasets/ignazio/kumars-eeg-imagined-speech?utm_source=chatgpt.com
+
+* **Dataset Name:** *Imagined Speech EEG Dataset*
+
+* **Source:** Publicly available dataset (often used in EEG signal classification research).
+
+* **Structure in your project:**
+
+  ```
+  /Imagined_speech_EEG_edf/
+  ├── Char/
+  ├── Digit/
+  └── Image/
+  ```
+
+* **Format:**
+  Each file is in `.edf` (European Data Format) containing EEG signals recorded from multiple electrodes.
+  You converted these `.edf` files into `.npy` arrays using `loader.py`.
+
+* **Content:**
+  EEG signals were recorded while subjects imagined speaking **10 different words**:
+
+  ```
+  Apple, Car, Dog, Gold, Mobile, Rose, Scooter, Tiger, Wallet, Watch
+  ```
+
+* **Sampling:**
+  Each sample was segmented into a **39×256** frame representing EEG channels × time points.
+
+* **Preprocessing done:**
+
+  1. Data loading from `.edf` files
+  2. Segmentation into uniform time frames
+  3. Cleaning (removal of NaN/inf values)
+  4. Normalization (mean = 0, std = 1)
+  5. Verification of shape and integrity
+
+* **Purpose:**
+  To train a CNN model capable of decoding imagined speech patterns directly from EEG data.
+
 
 ⚙️ 1. Setup Instructions
 
