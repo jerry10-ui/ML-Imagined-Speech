@@ -3,6 +3,7 @@
 
 A deep learning-based system to decode "imagined speech" from EEG signals using "CNN architecture" and an interactive "Streamlit web app" that predicts and speaks the recognized word.
 
+---
 
 📘 Overview
 
@@ -12,6 +13,7 @@ This project takes raw EEG '.edf' data, preprocesses it into segments, trains a 
 > The dataset files (`.edf`, `.npy`, `.h5`, etc.) are not included in this repository due to size limitations.  
 > You can recreate them locally using the provided scripts and dataset links.
 
+---
 
 🗂️ Project Structure
 
@@ -27,10 +29,6 @@ This project takes raw EEG '.edf' data, preprocesses it into segments, trains a 
 | `.gitignore` | Ignored files and folders. |
 | `requirements.txt` | Python dependencies list. |
 | `README.md` | Complete documentation. |
-
-You used the **“Imagined Speech EEG” dataset**, which contains EEG recordings of subjects imagining different spoken words.
-
-Here’s a detailed description you can include in your report or GitHub README:
 
 ---
 
@@ -75,6 +73,7 @@ https://www.kaggle.com/datasets/ignazio/kumars-eeg-imagined-speech?utm_source=ch
 * **Purpose:**
   To train a CNN model capable of decoding imagined speech patterns directly from EEG data.
 
+---
 
 ⚙️ 1. Setup Instructions
 
@@ -93,6 +92,8 @@ source .venv/bin/activate  # On macOS/Linux
 pip install -r requirements.txt
 ````
 
+---
+
 ## 📦 2. Requirements
 
 ```
@@ -108,6 +109,7 @@ pyttsx3
 h5py
 ```
 
+---
 
 🧩 3. Base Directory and File Paths
 
@@ -127,6 +129,7 @@ Y_SEGMENTS_PATH = os.path.join(BASE_DIR, "y_segments.npy")
 
 > ✅ Keep all files inside one main folder (like the path above) to simplify this setup.
 
+---
 
 🧠 4. Data Preprocessing Pipeline
 
