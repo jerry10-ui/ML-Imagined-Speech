@@ -39,7 +39,7 @@ https://www.kaggle.com/datasets/ignazio/kumars-eeg-imagined-speech?utm_source=ch
 
 * **Source:** Publicly available dataset (often used in EEG signal classification research).
 
-* **Structure in your project:**
+* **Structure of the project:**
 
   ```
   /Imagined_speech_EEG_edf/
