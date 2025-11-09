@@ -1,0 +1,10 @@
+numpy
+mne
+scikit-learn
+tensorflow>=2.12
+matplotlib
+seaborn
+streamlit
+gTTS
+pyttsx3
+h5py

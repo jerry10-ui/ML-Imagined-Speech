@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Data and model files
+*.npy
+*.npz
+*.csv
+*.h5
+*.mp3
+*.wav
+*.edf
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Streamlit cache
+.streamlit/
+.cache/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# VSCode / PyCharm settings
+.vscode/
+.idea/
