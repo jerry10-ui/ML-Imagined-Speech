@@ -10,7 +10,7 @@ import os
 # -------------------------
 # Config / paths
 # -------------------------
-BASE_DIR = r"C:\Coding\ML Project"
+BASE_DIR = r""
 MODEL_PATH = os.path.join(BASE_DIR, "eeg_model.h5")
 LABELS_PATH = os.path.join(BASE_DIR, "label_classes.npy")
 Y_SEGMENTS_PATH = os.path.join(BASE_DIR, "y_segments.npy")
@@ -218,3 +218,4 @@ if uploaded is not None:
         st.error(f"❌ Error while predicting: {e}")
 else:
     st.info("Upload a .npy EEG segment (or dataset) to predict.")
+
