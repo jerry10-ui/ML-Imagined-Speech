@@ -8,7 +8,7 @@ import os
 # -------------------------------
 # Paths
 # -------------------------------
-BASE_DIR = r"C:\Coding\ML Project"
+BASE_DIR = r""
 model_path = os.path.join(BASE_DIR, "eeg_model.h5")
 history_path = os.path.join(BASE_DIR, "history.npy")
 X_path = os.path.join(BASE_DIR, "X_segments.npy")
@@ -95,3 +95,4 @@ with open(report_path, "w") as f:
 print(f"✅ Saved classification report at: {report_path}")
 
 print("\n🎉 All plots and reports have been generated successfully!")
+
