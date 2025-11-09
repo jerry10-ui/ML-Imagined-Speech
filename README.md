@@ -3,7 +3,6 @@
 A deep learning-based system to decode "imagined speech" from EEG signals using "CNN architecture" and an interactive "Streamlit web app" that predicts and speaks the recognized word.
 
 
-
 📘 Overview
 
 This project takes raw EEG '.edf' data, preprocesses it into segments, trains a convolutional neural network (CNN) for classification, and allows interactive predictions through a Streamlit web interface.
